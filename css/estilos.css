@@ -1,0 +1,299 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Sofia&family=Trocchi&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Playpen+Sans&family=Roboto&family=Sofia&family=Trocchi&display=swap');  /*Importar fuentes de google*/
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Playpen+Sans&family=Roboto&family=Sofia&family=Trocchi&display=swap');
+
+  
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#97d6e3 ;
+    background-image: url(/Iconos_gratuitos_de_Mundial_diseñados_por_Freepik-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #6e1423;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1.encabezado{
+    text-align: center; 
+    font-size: 70px;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1.bienvenida{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Playpen Sans', cursiv;
+}
+
+div.mensaje{
+    width: 75%; 
+    height: 20%;
+    z-index: 100000;
+    padding: 10px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: #8ecae6;
+    border: 8px solid #001845;  
+    text-align: justify;
+    font-family: 'Playpen Sans', cursiv;
+    font-size: 20px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+div.botones{
+      height: 90%;
+      width: 75%;
+      margin: auto;
+}
+
+div.contenedor{
+
+      width: 200px;
+      height: 200px;
+      z-index: 100000;
+      padding: 10px;
+      border-radius: 25px;
+      margin: 3%;
+      font-family: 'Playpen Sans', cursiv;
+}
+
+.img_cuadro{
+    width:120px;
+    height:120px;   
+    margin-left: 20%;
+}
+
+div.contenedor.mar{
+    background-color: #168aad;
+    color: black;
+    border: 10px solid  #184e77;
+    float: left;   
+}
+
+div.contenedor.mar:hover {
+
+    background-color: #a9d6e5;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.basura{
+    background-color: #70e000;
+    color: black;
+    border: 10px solid  #38b000;
+    float: left;
+}
+
+div.contenedor.basura:hover {
+    background-color: #d8f3dc;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.luz{
+    background-color: #ffb700;
+    color: black;
+    border: 10px solid  #ff9500;
+    float: left;
+}
+
+div.contenedor.luz:hover {
+    background-color: #fff6cc;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.agua{
+    background-color: #48cae4;
+    color: black;
+    border: 10px solid  #00b4d8;
+    float: left;
+}
+
+div.contenedor.agua:hover {
+    background-color: #cae9ff;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.areas{
+    background-color: #936639;
+    color: black;
+    border: 10px solid  #582f0e;
+    float: left;
+}
+
+div.contenedor.areas:hover {
+    background-color: #deab90;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.cambio{
+    background-color: #8d99ae;
+    color: black;
+    border: 10px solid  #2b2d42;
+    float: left;
+}
+
+div.contenedor.cambio:hover {
+    background-color: #e9ecef;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.cuestionario{
+    background-color: #da344d;
+    color: black;
+    border: 10px solid  #d91e36;
+    float: left;
+}
+
+div.contenedor.cuestionario:hover {
+    background-color: #ffa69e;
+    color: black;
+    cursor: pointer;  
+}
+
+div.contenedor.descarga{
+    background-color: #9d4edd;
+    color: black;
+    border: 10px solid  #7b2cbf;
+    float: left;
+}
+
+div.contenedor.descarga:hover {
+    background-color: #e0aaff;
+    color: black;
+    cursor: pointer;  
+}
+
+
+
+
+p.contenido_cuadros{
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+.pie-pagina{
+    width: 100%;
+    /*background-color: #023e8a;*/
+    background-color:  #6e1423;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+  .clearfix::after {   /*Para que los elementos no se sobrepongan*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.boton {
+    transition: background-color 0.5s ease;
+}
+
+
